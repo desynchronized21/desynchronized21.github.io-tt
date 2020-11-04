@@ -1,0 +1,239 @@
+body a{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+  }
+  html, body{
+      font-size: 100%;
+      font-family: 'Roboto', sans-serif;
+  }
+  body{
+      background:#FFFFFF;
+      
+  }
+  .banner6{
+      background-image: url(../images/bannerop.jpg);
+ 
+   background-attachment: fixed;
+   background-position: center center;
+	background-size: cover;
+		
+	 
+}
+.agileinfo-dot{
+    background: url(../images/dott.png)repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+    padding: 3em 0;
+}
+/*-- header --*/
+.agileits-logo {
+	text-align:center;
+}
+.agileits-logo h1{
+	margin:0;
+}
+.agileits-logo h1 a{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 6px;
+    padding: 0;
+}
+.agileits-logo h1 a span{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse {
+    padding: 0;
+    box-shadow: none;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-nav {
+    float: none;
+    text-align: center;
+    background: none;
+    margin: 4em 0 0 0;
+}
+.header-top-info ul li{
+    display: inline-block;
+    float: none;
+}
+.navbar-nav li:after {
+    content: "";
+    position: absolute;
+    background: #FFFFFF;
+    height: 7px;
+    width: 7px;
+    top: 16px;
+    left: 0;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.navbar-nav li.active:after {
+    background: none !important;
+    width: 0px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border: solid 2px rgba(255, 255, 255, 0);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+	border: solid 2px #ffffff;
+    background: none;
+    border-radius: 20px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-nav > li > a {
+    font-size: 1em;
+    padding: .5em 2em;
+    margin: 0 1em;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    border: solid 2px #ffffff;
+	background: none;
+	border-radius: 20px;
+	font-size: 1.5em;
+}
+/*-- //header --*/
+@media(max-width:736px){
+    .agileits-logo h1 a {
+		font-size: 1.5em;
+	}
+	.navbar-toggle {
+		float: none;
+		margin-right: 0;
+	}
+	.navbar {
+		text-align: center;
+	}
+	.navbar-nav {
+	    margin: 1em 0;
+	}
+	.header-top-info ul li {
+		display: block;
+	}
+	.navbar-nav li:after {
+		background: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border: none;
+		position: absolute;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.84);
+		z-index: 9999;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background: #FF9800;
+	}
+	.input {
+		max-width: 28%;
+	}
+	.w3about-text {
+		width: 60%;
+		right: 0;
+	}
+	.support input[type="email"] {
+		width: 82%;
+	}
+	.navbar-nav > li > a {
+		margin: 1em .5em;
+	}
+}
+/*-- w3layouts-banner-info --*/
+.w3layouts-banner-info {
+    padding: 8em 0;
+}
+.banner_text {
+    text-align: center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.banner_text h3 {
+    color: #FFFFFF;
+    font-size: 7em;
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    size: ;
+}
+.banner_text p {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 2em 0;
+    letter-spacing: 2px;
+}
+.w3-button {
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    z-index: 1;
+}
+.w3-button a {
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: .5em 1em;
+    border: solid 2px #FF9800;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0;
+    background:#FF9800;
+}
+.w3-button a:hover {
+    color: #FFFFFF;
+    background:none;
+    border: solid 2px #FFFFFF;
+}
+/*-- //w3layouts-banner-info --*/
+/*-- copyright --*/
+.copyright{
+	background:#212121;
+	padding:1em 0;
+}
+.copyright p{
+	color:#FFFFFF;
+	font-size:.9em;
+	text-align:center;
+	margin:0;
+}
+.copyright p a{
+	color:#ff9800;
+}
+.copyright p a:hover{
+	color:#FFFFFF;
+}
+/*-- //copyright --*/
