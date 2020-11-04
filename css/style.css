@@ -15,21 +15,20 @@ body{
 .color{
 	color: #FF9800;
 }
-.banner6{
-	background: url(../images/bannerop.jpg) no-repeat 0px 0px;
-	background-size: cover;
-	
-		width: 100%;
-		height: auto;
-	 
-}
+
 .banner5{
 	background: url(../images/batlogo.jpg) no-repeat 0px 0px;
-    background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
 }
 .banner4{
 	background: url(../images/aclogo2.png) no-repeat 0px 0px;
-    background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
 }
 .banner3{
 	background: url(../images/acll.jpg) no-repeat 0px 0px;
@@ -38,13 +37,13 @@ body{
    background-position: center center;
 	background-size: cover;
 }
-.banner2{
-	background: url(../images/amongus.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
+
 .banner{
 	background: url(../images/newb.jpg) no-repeat 0px 0px;
-    background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
 }
 .right{
 	margin-left: 45%;
