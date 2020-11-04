@@ -16,13 +16,13 @@ body{
 .color{
 	color: #FF9800;
 }
-video {
-  max-width: 100%;
-  height: auto;
-}
 .banner6{
 	background: url(../images/bannerop.jpg) no-repeat 0px 0px;
-    background-size: cover;
+	background-size: cover;
+	
+		width: 100%;
+		height: auto;
+	 
 }
 .banner5{
 	background: url(../images/batlogo.jpg) no-repeat 0px 0px;
