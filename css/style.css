@@ -16,7 +16,13 @@ body a{
   .color{
 	  color: #FF9800;
   }
-
+  .banner6{
+	background: url(../images/minecraft.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
+}
   .banner5{
 	  background: url(../images/bat.jpg) no-repeat 0px 0px;
 	  background-size: cover;
@@ -64,6 +70,7 @@ body a{
 	text-align:center;
   }
    /*-- gallery --*/ 
+   
 /*-- jzBox-lightbox --*/
 #jzBox {
 	top: 0;
