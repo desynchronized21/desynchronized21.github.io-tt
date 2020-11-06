@@ -16,7 +16,7 @@ body a{
   .color{
 	  color: #FF9800;
   }
-  
+
   .banner5{
 	  background: url(../images/bat.jpg) no-repeat 0px 0px;
 	  background-size: cover;
@@ -53,10 +53,147 @@ body a{
 	  background-position: center center;
 	   background-size: cover;
   }
+  .gallery{
+	padding:5em 0;
+  }
+  .gallery h3{
+	font-size: 3em;
+	color: #ff9800;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	text-align:center;
+  }
+   /*-- gallery --*/ 
+/*-- jzBox-lightbox --*/
+#jzBox {
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	position: fixed;
+	background-color: rgba(30, 30, 30, 0.9);
+	margin: 0 !important;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: none;
+	color: #fff;
+}
+#jzBoxTargetImg {
+	margin:4% 0 1% 0;
+	max-width: 96%;
+	max-height: 73%;
+	cursor: pointer;
+}
+#jzBoxTitle {
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+#jzBoxCounter {
+	margin-bottom: 1%;
+	font-size: 12px;
+}
+
+#jzBox i:hover {
+	cursor: pointer;
+	color: #ff9800;
+} 
+#jzBoxBottom { max-height: 22%; }
+
+#jzBoxNextBig, #jzBoxPrevBig {
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 10001;
+	height: 100%; 
+} 
+#jzBoxNextBig { left: 69%; }
+
+i#jzBoxPrev, i#jzBoxNext {
+	font-size: 2em;
+	padding: 0.2em;
+	border: 1px solid #fff;
+	z-index: 99999;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all; 
+	transition:.5s all;
+}
+i#jzBoxClose {
+	font-size: 3em;
+	vertical-align: bottom;
+	margin-left: 10em;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all; 
+	transition:.5s all;
+}
+.w3ls-gallery-grids{
+	margin:5em 0 0 0;
+}
+.gallery-grid {
+	padding: 0; 
+}
+.wpf-demo-4{
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+img.img-responsive {
+	width: 100%;
+}
+.view-caption {
+	position: absolute;
+	top: -32%;
+	width: 100%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.57);
+	padding: 1em;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+}
+.wpf-demo-4:hover .view-caption {
+	top: 0;
+}
+.view-caption p {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+/*-- //gallery --*/
+@media(max-width:568px){
+
+	 .gallery h3,{
+		font-size: 2em;
+	}
+	 .gallery{
+		padding: 2em 0;
+	}
+
+	.w3ls-gallery-grids {
+		margin: 2em 0 0 0;
+	}
+
+}
+@media(max-width:414px){
+
+	.gallery-grid {
+		float: none;
+		width: 100%;
+	}
+}
+@media(max-width:320px){
+
+.gallery h3 {
+		font-size: 1.5em;
+	}
+
+}
   .right{
 	  margin-left: 45%;
   }
-  .welcome,.services,.gallery,.w3-agileits-testimonial,.updates,.team,.contact{
+  .welcome,.services,.w3-agileits-testimonial,.updates,.team,.contact{
 	  padding:5em 0;
   }
   .agileits_welcome_grid_left h3, .services h3, .gallery h3, .testimonial h3, .updates h3, .team h3, .wthree-subscribe h3, .contact h3, .w3-agile-map h3 {
