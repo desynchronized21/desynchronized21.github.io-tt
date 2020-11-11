@@ -16,6 +16,13 @@ body a{
   .color{
 	  color: #FF9800;
   }
+  .banner7{
+	background: url(../images/apex1.webp) no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	 background-size: cover;
+}
   .banner6{
 	background: url(../images/minecraft.jpg) no-repeat 0px 0px;
 	background-size: cover;
